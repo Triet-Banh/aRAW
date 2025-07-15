@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Website</title>
+	<!--style----->
+	<style>
+		/*body{
+			background-color:#161616;
+		}
+	</style>
+	
+</head>
+  
+<section id="main">
+  <nav>
+    <a href="#" class="mentors">Peer-led Team Learning</a>
+  <!menu>
+    <div class="navbar"></div>
+    <ul class="group">
+      <li class="active"><a href="#main">Home</a></li>
+      <li><a href="#Weather">Weather</a></li>
+      <li><a href="#Electrical-Engineering">Electrical Engineering</a></li>
+      <li><a href="#Computer-Engineering">Computer Engineering</a></li>
+      <li><a href="index.html">Main Page</a></li>
+    </ul>
+    <a href="#" class="lang">En</a>
+  </nav>
+  </section>
+<style>
+  body{
+	margin:0px;
+	padding:0px;
+	background-color:#161616;	
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+#main{
+	padding:30px 50px;
+	position:relative;
+	width:100%;
+	height: 100vh;
+	box-sizing: border-box;
+	background-size: 665px;
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	background-image: url("https://images.pexels.com/photos/6684405/pexels-photo-6684405.jpeg?auto=compress&cs=tinysrgb&w=600");
+	background-color: #edf1fd;
+}
+    nav{
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	font-family: sans-serif;
+	position:fixed;
+	top: 0;
+	left: 0;
+	width:100%;
+	box-sizing:border-box;
+	padding: 10px 50px;
+	background-color:#F4F7FF;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.05); 
+	z-index: 1;
+}
+ 
+.group{
+	display:flex;
+}
+.group li a{
+	padding: 10px 15px;
+	color:#6c707c;
+	font-size: 12px;
+	
+}
+.lang{
+	color:#292929;
+}
+.mentors{
+	font-size: 25px;
+	font-weight: bold;
+	color:#292929;
+	font-family:sans-serif;
+}
+.navbar{
+	display:none;
+}
+.active a,
+.group li a:hover{
+	background-color:#292929;
+	color:#FFF!important;
+	font-weight: bold;
+	transition: all ease 0.4s;
+}
+</style>
+
+
+  <body>
+  <!--name--------------------------->
+	<div class="name">
+	<!--hello------->
+	<p>Hey you, over there!</p>
+	<!--name--->
+	<h1>This is the <font color="#17d1ac">Peer-Led Tutoring</font> Learning Center</h1>
+	<!--details--------------->
+	<p class="details">For Freshmen and Newbies alike, this is where learning with your fellow peers and upperclassmen begins!</p>  
+
+<style>
+.name{
+	font-family: sans-serif;
+	width: 500px;
+	position: absolute;
+	left: 20%;
+	top: 50%;
+	transform: translate(-20%,-50%);
+}
+
+.name p:nth-child(1),.name .details{
+	color:#6c707c;
+	font-size: 16px;
+}
+.name h1{
+	font-family:sans-serif;
+	font-size: 40px;
+	margin:0px;
+	letter-spacing: 3px;
+	color:#292929;
+}
+
+  
+</style>	
+		
+	</div>
+</body>
+
+
+<!--||||||||||||||||||||||||||||||||
+  
+ <!--Weather Tab----------------------->
+		<section id="Weather">
+	<!--text---------------------->
+	<div class="weather-text">
+	<h1>Live Weather</h1>
+	<h2>Local Weather Forecast</h2>
+  <!--<button>View More Details</button>-->
+  <p id="weather-info">Fetching current weather data...</p>
+	<!--<button>View Weekly Forecast</button>-->
+  </div>
+  <!--weather-image or icon----------------->
+  <div class="weather-icon">
+  <img id="weather-image" alt="weather icon" src="https://cdn-icons-png.flaticon.com/512/1163/1163661.png" width="150" height="150"/>
+  </div>
+  </section>
+  
+<style>
+  #Weather{
+	width:100%;
+	height: 100vh;
+	background-color:#161616;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 50px 5% 0px 5%;
+	position: relative;
+}
+.weather-text{
+	font-family: calibri;
+	width: 50%;
+}
+.weather-text h1{
+	font-size: 5rem;
+	color:#17d1ac;
+}
+.weather-text h2{
+	font-size: 2.5rem;
+	color:#FFFFFF;
+	font-weight: 400;
+}
+.weather-text h1,h2{
+	margin: 0px;
+	padding: 0px;
+}
+.weather-text p{
+	font-size: 1.2rem;
+	color:rgba(255,255,255,0.90);
+	
+}
+.weather-text button{
+	width: 180px;
+	height: 40px;
+	border-radius: 20px;
+	border: none;
+	outline: none;
+	background-color:#17d1ac;
+}
+.weather-text button:hover{
+	background-color: #FFFFFF;
+	transition: all ease 0.3s;
+}
+  </style>
+
+<!--||||||||||||||||||||||||||||||||
+  
+ <!--Electrical Engineering----------------------->
+		<section id="Electrical-Engineering">	
+  <!--about-model----------------->
+	<div class="EE-model">
+	<img alt="model" width="408" height="612" src="https://images.pexels.com/photos/2686020/pexels-photo-2686020.jpeg?auto=compress&cs=tinysrgb&w=600"/>	
+	</div>
+	<!--text---------------------->
+	<div class="EE-text">
+	<h1>Electrical Engineering Major</h1>
+	<h2>Mochammad Algi and Jayne Lee</h2>
+	<p>Mochammad Algi and Jayne Lee are the co-leaders for the electrical engineering major PLTL related courses!<br>For any upcomming electrical engineering freshmen in need of questions they can help you all!<br>Computer Science PLTL meet every Wednesday and Thursday at SCL 2.301 at 12 PM every week!</p>
+	<!--<button>View More Details</button>-->
+	</div>
+
+	</section>
+  
+<style>
+  #Electrical-Engineering{
+	width:100%;
+	height: 100vh;
+	background-color:#161616;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 50px 5% 0px 5%;
+	position: relative;
+}
+.EE-text{
+	font-family: calibri;
+	width: 50%;
+}
+.EE-text h1{
+	font-size: 5rem;
+	color:#17d1ac;
+}
+.EE-text h2{
+	font-size: 2.5rem;
+	color:#FFFFFF;
+	font-weight: 400;
+}
+.EE-text h1,h2{
+	margin: 0px;
+	padding: 0px;
+}
+.EE-text p{
+	font-size: 1.2rem;
+	color:rgba(255,255,255,0.90);
+	
+}
+.EE-text button{
+	width: 180px;
+	height: 40px;
+	border-radius: 20px;
+	border: none;
+	outline: none;
+	background-color:#17d1ac;
+}
+.EE-text button:hover{
+	background-color: #FFFFFF;
+	transition: all ease 0.3s;
+}
+  </style>
+
+<!--||||||||||||||||||||||||||||||||
+  
+ <!--Computer Engineering----------------------->
+		<section id="Computer-Engineering">
+	<!--text---------------------->
+	<div class="CE-text">
+	<h1>Computer Engineering Major</h1>
+	<h2>Glen Iris</h2>
+	<p>Glen Iris is the head PLTL for the computer engineering major related courses!<br>For any upcomming computer engineering freshmen in need of questions she can help you all!<br>Computer engineering PLTL meet every Monday and Thursday at ECSS 2.355 at 1 PM every week!</p>
+	<!--<button>View More Details</button>-->
+	</div>
+	<!--about-model----------------->
+	<div class="CE-model">
+	<img alt="model" width="612" height="408" src="https://media.istockphoto.com/id/1369508766/photo/beautiful-successful-latin-woman-smiling.jpg?b=1&s=612x612&w=0&k=20&c=jFxAg5CoMhiFu-ropZqYYmRtKGOtuLXJhCZ3UKwiwfw="/>	
+	</div>
+	</section>
+  
+<style>
+  #Computer-Engineering{
+	width:100%;
+	height: 100vh;
+	background-color:#161616;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 50px 5% 0px 5%;
+	position: relative;
+}
+.CE-text{
+	font-family: calibri;
+	width: 50%;
+}
+.CE-text h1{
+	font-size: 5rem;
+	color:#17d1ac;
+}
+.CE-text h2{
+	font-size: 2.5rem;
+	color:#FFFFFF;
+	font-weight: 400;
+}
+.CE-text h1,h2{
+	margin: 0px;
+	padding: 0px;
+}
+.CE-text p{
+	font-size: 1.2rem;
+	color:rgba(255,255,255,0.90);
+	
+}
+.CE-text button{
+	width: 180px;
+	height: 40px;
+	border-radius: 20px;
+	border: none;
+	outline: none;
+	background-color:#17d1ac;
+}
+.CE-text button:hover{
+	background-color: #FFFFFF;
+	transition: all ease 0.3s;
+}
+  </style>  
+<script type="module" src="/script.mjs"></script>
+</html>
