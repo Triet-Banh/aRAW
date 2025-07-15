@@ -3,7 +3,11 @@ const fetch = require("node-fetch");
 const path = require("path");
 
 const app = express();
-const API_KEY = "32ca60dff449c5d5ff7b0b55bb4f57b7";
+const API_KEY = process.env.WEATHER_API_KEY;
+
+app.use(cors({
+  origin: 'https://triet-banh.github.io/aRAW'
+}));
 
 // Serve static files from /public
 app.use(express.static("public"));
