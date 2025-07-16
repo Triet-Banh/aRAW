@@ -1,6 +1,7 @@
 const express = require("express");
 const fetch = require("node-fetch");
 const path = require("path");
+const cors = require("cors");
 
 const app = express();
 const API_KEY = process.env.WEATHER_API_KEY;
