@@ -10,8 +10,8 @@ app.use(cors({
   origin: 'https://triet-banh.github.io/aRAW'
 }));
 
-// Serve static files from /public
-app.use(express.static("public"));
+// Serve static files from /docs as public cannot be found by github directory
+app.use(express.static("docs"));
 
 // Weather API route
 app.get("/weather", async (req, res) => {
